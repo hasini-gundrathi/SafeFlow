@@ -43,7 +43,9 @@ It is designed to integrate with AI-powered services that analyze live feeds, pr
    `npm run dev`
 
 📂 Project Structure
+
 pgsql
+
 Copy code
 ├── components/
 │   ├── Header.tsx
@@ -60,6 +62,7 @@ Copy code
 ⚡ Deployment
 Build and deploy with:
 
-bash
+'''
 Copy code
 npm run build
+'''
