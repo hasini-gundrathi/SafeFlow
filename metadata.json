@@ -1,0 +1,7 @@
+{
+  "name": "SafeFlow: Real-time Stampede Prediction",
+  "description": "An AI that uses live video to detect people, analyze crowd dynamics (density, flow, velocity), and classify stampede risk in real-time with video overlays and heatmaps.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
