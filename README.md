@@ -24,7 +24,7 @@ It is designed to integrate with AI-powered services that analyze live feeds, pr
 
 ## 📦 Tech Stack
 - **Frontend:** React 18, TypeScript, Vite
-- **Styling:** TailwindCSS (optional if added)
+- **Styling:** TailwindCSS
 - **State Management:** React Hooks (`useState`, `useEffect`, `useRef`, `useCallback`)
 - **Services:** Custom AI integration point (`geminiService`)
 
