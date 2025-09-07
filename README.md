@@ -41,28 +41,5 @@ It is designed to integrate with AI-powered services that analyze live feeds, pr
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
-
-📂 Project Structure
-
-pgsql
-
-Copy code
-├── components/
-│   ├── Header.tsx
-│   ├── CameraView.tsx
-│   ├── AnalysisDashboard.tsx
-│   └── SourceSelector.tsx
-├── services/
-│   └── geminiService.ts
-├── types.ts
-├── App.tsx
-├── index.tsx
-├── vite.config.ts
-└── tsconfig.json
-⚡ Deployment
-Build and deploy with:
-
-'''
-Copy code
-npm run build
-'''
+4. Build and deploy with:
+   `npm run build`
