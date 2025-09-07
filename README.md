@@ -1,14 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🛡️ SafeFlow
 
-# Run and deploy your AI Studio app
+**“AI-Powered Stampede Detection & Crowd Safety”**  
 
-This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1z1TfmCezeEtuPVEjNQwEsTToIv42Zgko
+## 🚀 Overview
 
-## Run Locally
+Large gatherings like festivals, rallies, and concerts often face stampede risks.  
+Traditional CCTV systems only monitor without predicting, leading to delayed responses and potential loss of life.
+
+**SafeFlow** is a React + TypeScript dashboard for real-time crowd monitoring and safety.  
+It is designed to integrate with AI-powered services that analyze live feeds, predict risk levels, and alert authorities in time.
+
+---
+
+## ✨ Features
+- Real-time video feed monitoring
+- Crowd analysis dashboard
+- Source selection (live / file)
+- Clean and modular component design
+- Ready to integrate with backend AI services
+
+---
+
+## 📦 Tech Stack
+- **Frontend:** React 18, TypeScript, Vite
+- **Styling:** TailwindCSS (optional if added)
+- **State Management:** React Hooks (`useState`, `useEffect`, `useRef`, `useCallback`)
+- **Services:** Custom AI integration point (`geminiService`)
+
+---
+
+## 🔧 Setup & Installation
+
 
 **Prerequisites:**  Node.js
 
@@ -18,3 +41,25 @@ View your app in AI Studio: https://ai.studio/apps/drive/1z1TfmCezeEtuPVEjNQwEsT
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+📂 Project Structure
+pgsql
+Copy code
+├── components/
+│   ├── Header.tsx
+│   ├── CameraView.tsx
+│   ├── AnalysisDashboard.tsx
+│   └── SourceSelector.tsx
+├── services/
+│   └── geminiService.ts
+├── types.ts
+├── App.tsx
+├── index.tsx
+├── vite.config.ts
+└── tsconfig.json
+⚡ Deployment
+Build and deploy with:
+
+bash
+Copy code
+npm run build
